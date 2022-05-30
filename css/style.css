@@ -21,7 +21,7 @@
     align-items: center;
     margin: 90px;
     border: 20px solid red;
-    width: 80%;
+    width: 50%;
     height: 70vh;
     border-radius: 35px;
     opacity: 2;
@@ -82,19 +82,18 @@
         height: 100vh;
     }
     .container{
-        width: 80%;
-        height: 135vh;
-        display: block;
+        width: 70%;
+        height: 45vh;
+        /* display: block; */
         margin-bottom: 20px;
         margin: auto;
     }
     .name{
-        display: block;
         font-size: 10px;
+        width: 80%;
     }
     .table1{
-        width: 50%;
-        height: 100vh;
+        width: 100%;
     }
     .table1 thead tr{
         font-size: 10px;
@@ -107,16 +106,16 @@
         text-align: left;
     }
 }
-
+ 
 @media screen and (max-width: 900px) {
     #card{
         width: 100%;
-        height: 100vh;
+    
     }
 
     .container{
-        width: 80%;
-        height: 135vh;
+        width: 100%;
+        height: 100vh;
         margin: auto;
     }
 }
